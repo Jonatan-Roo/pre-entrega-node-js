@@ -1,13 +1,3 @@
-// console.log(process.argv);
-
-// const method = process.argv[2];
-// const resource = process.argv[3];
-// console.log(method, resource);
-
-//if (method.toUpperCase() == "GET" && resource.toLowerCase() == "products") {
-//    console.log("obtener productos");
-//}
-
 let [, , method, resource, ...params] = process.argv;
 
 method = method.toUpperCase();
